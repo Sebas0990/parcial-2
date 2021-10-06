@@ -44,7 +44,10 @@ public class administracion extends producto  {
             //Set
             Actualizar_inventario(lista_productos, "compra");
             //Get
-            System.out.println(InventarioActual());
+            System.out.println( "inventario inicial:");
+            for (int i = 0; i < InventarioActual().size(); i++) {
+                System.out.println(InventarioActual().get(i));
+            }
             int cantidadClientes = 5;
             for (int j = 1; j < cantidadClientes+1; j++) {
                 int cantidadCompras = (int)(Math.random()*(3-1+1)+1);
