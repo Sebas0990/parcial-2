@@ -1,5 +1,6 @@
 import java.util.Random;
 //comentario
+//Qmas
 public class Persona {
     private String name;
     private String order;
